@@ -4,6 +4,8 @@
   "description": "Code to be used to start the Quiz 10 exercise.",
   "main": "main.js",
   "scripts": {
+		"lint": "eslint *.js",
+    "lint:fix": "prettier-eslint '*.js' --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
